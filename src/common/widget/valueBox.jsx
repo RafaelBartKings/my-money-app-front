@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "../layout/grid";
 
 export default props => (
-   <Gird cols={props.cols}>
+   <Grid cols={props.cols}>
       <div className={`small-box bg-${props.color}`}>
          <div className="inner">
             <h3>{props.value}</h3>
@@ -12,6 +12,5 @@ export default props => (
             <i className={`fa fa-${props.icon}`}></i>
          </div>
       </div>
-
-   </Gird>
+   </Grid>
 )
